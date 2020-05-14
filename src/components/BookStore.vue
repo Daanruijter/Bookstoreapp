@@ -104,7 +104,7 @@ export default {
       url = "http://localhost:5000/books";
     }
     if (process.env.NODE_ENV === "production") {
-      url = "https://daanbookapp.herokuapp.com/books";
+      url = "https://daanbookstoreapp.herokuapp.com/books";
     }
     await fetch(url, {
       method: "GET",

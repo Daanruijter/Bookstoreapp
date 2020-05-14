@@ -22,6 +22,9 @@ app.listen(port, () => {
   console.log("Server is running on " + port + "port");
 });
 
+const test = "";
+console.log(test);
+
 const db =
   "mongodb+srv://dr:sSXGDQnstqEWcLHx@cluster0-4ie2c.mongodb.net/test?retryWrites=true&w=majority";
 
